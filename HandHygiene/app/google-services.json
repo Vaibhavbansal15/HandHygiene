@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "771727276412",
+    "project_id": "handhygiene-jaypeehealthcare",
+    "storage_bucket": "handhygiene-jaypeehealthcare.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:771727276412:android:9d285ed2c64eb29103ccf9",
+        "android_client_info": {
+          "package_name": "com.jaypeehealthcare.handhygiene"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4qcIAMt8yP7kfJ-UhOfyHW7tVopa3gKY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
