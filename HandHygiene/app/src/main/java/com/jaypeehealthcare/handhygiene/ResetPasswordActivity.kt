@@ -19,7 +19,7 @@ class ResetPasswordActivity : AppCompatActivity() {
 
         auth = FirebaseAuth.getInstance()
         binding.resetPasswordBtn.setOnClickListener{
-            val email = binding.resetPasswordEditText.text.toString()
+            val email = binding.resetEditText.text.toString()
 
             if(email.isEmpty()){
                 Toast.makeText(this, "Please Enter the email!", Toast.LENGTH_SHORT).show()
@@ -33,7 +33,7 @@ class ResetPasswordActivity : AppCompatActivity() {
                     .addOnCompleteListener(this){task->
                         if(task.isSuccessful){
                             Toast.makeText(this, "Check your mail!!", Toast.LENGTH_SHORT).show()
-                            binding.resetPasswordEditText.text.clear()
+                            binding.resetEditText.text.clear()
                             progressDialog.dismiss()
                         } else{
                             Toast.makeText(this, "Failed to reset : ${task.exception?.message}", Toast.LENGTH_SHORT).show()

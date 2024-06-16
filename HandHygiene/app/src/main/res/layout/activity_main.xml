@@ -39,6 +39,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="36dp"
         android:layout_marginEnd="24dp"
+        android:contentDescription="Add new entry"
         android:src="@drawable/add_icon"
         android:backgroundTint="@color/primaryColor1"
         app:layout_constraintBottom_toBottomOf="parent"
