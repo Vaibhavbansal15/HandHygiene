@@ -28,7 +28,7 @@
             <ImageView
                 android:id="@+id/login_header_img"
                 android:layout_width="match_parent"
-                android:layout_height="221dp"
+                android:layout_height="231dp"
                 android:layout_marginTop="60dp"
                 android:layout_marginStart="5dp"
                 android:layout_marginEnd="5dp"
